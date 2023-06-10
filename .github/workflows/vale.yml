@@ -20,11 +20,11 @@ jobs:
         
         - name: Vale
           uses: errata-ai/vale-action@v1.4.2
-          with:
-              debug: true
-              styles: |
-                https://github.com/errata-ai/write-good/releases/download/v0.4.0/write-good.zip
-                https://github.com/errata-ai/Google/releases/latest/download/Google.zip
-                https://github.com/errata-ai/Joblint/releases/download/v0.4.1/Joblint.zip
+ #         with:
+  #            debug: true
+   #           styles: |
+    #            https://github.com/errata-ai/write-good/releases/download/v0.4.0/write-good.zip
+     #           https://github.com/errata-ai/Google/releases/latest/download/Google.zip
+      #          https://github.com/errata-ai/Joblint/releases/download/v0.4.1/Joblint.zip
           env:
               GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
